@@ -7,9 +7,7 @@
   "folderPath": "/myApis",
   "methodsAllowed": [
     "GET",
-    "POST",
-    "PUT",
-    "DELETE"
+    "POST"
   ],
   "tracingEnabled": false,
   "wssProcessingEnabled": false,
