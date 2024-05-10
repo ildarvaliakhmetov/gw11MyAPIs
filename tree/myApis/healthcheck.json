@@ -1,0 +1,16 @@
+            {
+                "goid": "00b3d7c4837c47f20000000001728001",
+                "name": "Load Balancer",
+                "resolutionPath": "/monitor/healthcheck_ung.html",
+                "checksum": "dc96830f8228aeb2c9f220a90d3c6ad0dfdde6a8",
+                "enabled": true,
+                "folderPath": "/Monitor",
+                "methodsAllowed": [
+                    "GET"
+                ],
+                "tracingEnabled": false,
+                "wssProcessingEnabled": false,
+                "policy": {
+                    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse>\n                <L7p:Base64ResponseBody stringValue=\"dXAgYW5kIHJ1bm5pbmc=\"/>\n                <L7p:EarlyResponse booleanValue=\"true\"/>\n                <L7p:ResponseContentType stringValue=\"text/plain; charset=UTF-8\"/>\n            </L7p:HardcodedResponse>\n        </wsp:All>\n</wsp:Policy>\n"
+                }
+            }
