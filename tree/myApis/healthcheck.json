@@ -2,7 +2,7 @@
                 "name": "Load Balancer",
                 "resolutionPath": "/monitor/healthcheck_ung.html",
                 "enabled": true,
-                "folderPath": "/Monitor",
+                "folderPath": "/myApis",
                 "methodsAllowed": [
                     "GET"
                 ],
